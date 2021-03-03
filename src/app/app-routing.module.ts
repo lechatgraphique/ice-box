@@ -5,7 +5,6 @@ import { ProductComponent } from './areas/components/product/product/product.com
 
 const routes: Routes = [
   { path: 'products', component: ListProductsComponent },
-  { path: 'products/1', component: ProductComponent} /* TODO: Route temporaire pour la creation du componant */
 ];
 
 @NgModule({
